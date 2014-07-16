@@ -1,4 +1,4 @@
-#A skeleton of a grunt UI project
+#A skeleton of a UI project with grunt automation
 
 **Uses:**
 - Javascript

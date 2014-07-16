@@ -1,7 +1,11 @@
 {
-  "name": "basic-web",
+  "name": "grunt-ui",
   "version": "0.0.0",
-  "description": "basic web tech",
+  "description": "basic UI project with grunt automation",
+  "repository": { 
+    "type" : "git", 
+	"url" : "https://github.com/spawnius/grunt-ui"
+  },
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

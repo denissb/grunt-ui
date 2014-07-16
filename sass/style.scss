@@ -1,0 +1,33 @@
+/* Varibales */
+
+$font-stack: "Trebuchet MS", Helvetica, sans-Serif;
+$font-color: #333333;
+$h1-color: #60cd18;
+
+/* Mixins */
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+            border-radius: $radius;
+
+        -ms-border-radius: $radius;
+}
+
+/* Styles */
+
+body {
+    color: $font-color;
+    font: 100% $font-stack;
+    h1 {
+        color: $h1-color;
+    }
+    button {
+        position: fixed;
+        top: 20px;
+        right: 10px;
+        padding: 10px;
+
+        @include border-radius(10px);
+    }
+}
